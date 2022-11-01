@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngPipes';
+  title : string = 'AngPipes';
+  msg : string = 'Upper Case';
+  toDate : Date = new Date();
+  per : number = .7414;
+  num : number = 9542.14554; 
 }
